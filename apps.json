@@ -1,0 +1,794 @@
+[
+ {
+  "code": "ad-f2cb81",
+  "name": "MX Player",
+  "package": "com.mxtech.videoplayer.ad",
+  "version": "2.12.2",
+  "versionCode": "2001002882",
+  "error": null,
+  "icon": "icons/ad-f2cb81.webp",
+  "files": [
+   "MX_Player_2.12.2-youarefinished.apk"
+  ],
+  "latestFile": "MX_Player_2.12.2-youarefinished.apk",
+  "latestSize": 87028471,
+  "latestUrl": "https://github.com/wudishiduomojimo324/netamade-appstore-mirror/releases/download/appstore-202610/ad-f2cb81__MX_Player_2.12.2-youarefinished.apk"
+ },
+ {
+  "code": "ad1-94a636",
+  "name": "毒舌电影",
+  "package": "com.dstv.ad1",
+  "version": "1.1.2",
+  "versionCode": "10102",
+  "error": null,
+  "icon": "icons/ad1-94a636.png",
+  "files": [
+   "v1.1.2fun_apk.apk"
+  ],
+  "latestFile": "v1.1.2fun_apk.apk",
+  "latestSize": 21239336,
+  "latestUrl": "https://github.com/wudishiduomojimo324/netamade-appstore-mirror/releases/download/appstore-202610/ad1-94a636__v1.1.2fun_apk.apk"
+ },
+ {
+  "code": "amapauto-d02f31",
+  "name": "高德地图",
+  "package": "com.autonavi.amapauto",
+  "version": "9.1-0731@美式股东版",
+  "versionCode": "26073100",
+  "error": null,
+  "icon": "icons/amapauto-d02f31.png",
+  "files": [
+   "9.1.0_-2026-05-10-17.apk",
+   "9.1.0_-2026-05-10-22.apk",
+   "9.1.0_-2026-05-13-21.apk",
+   "9.1.0_-2026-06-07-09.apk",
+   "9.1.0_-2026-06-14-00.apk",
+   "9.1.0_-2026-06-17-18.apk",
+   "9.1.0_-2026-06-30-15.apk",
+   "9.1.0_-2026-07-31-14.apk",
+   "9.1.0_-2026-07-31-16.apk",
+   "9.1.0_-2026-08-06-11.apk",
+   "9.1.0_-2026-08-13-17.apk",
+   "9.1.0_-2026-08-27-23.apk"
+  ],
+  "latestFile": "9.1.0_-2026-07-31-14.apk",
+  "latestSize": 136825080,
+  "latestUrl": "https://github.com/wudishiduomojimo324/netamade-appstore-mirror/releases/download/appstore-202610/amapauto-d02f31__9.1.0_-2026-07-31-14.apk"
+ },
+ {
+  "code": "amapnavi-c98a57",
+  "name": "AmapNavi",
+  "package": "com.carrot.amapnavi",
+  "version": "1.3.0.0",
+  "versionCode": "1",
+  "error": null,
+  "icon": "icons/amapnavi-c98a57.png",
+  "files": [
+   "AmapNavi-V1.3.0.0.apk.1"
+  ],
+  "latestFile": "AmapNavi-V1.3.0.0.apk.1",
+  "latestSize": 72718855,
+  "latestUrl": "https://github.com/wudishiduomojimo324/netamade-appstore-mirror/releases/download/appstore-202610/amapnavi-c98a57__AmapNavi-V1.3.0.0.apk.1"
+ },
+ {
+  "code": "appmanage-8418ca",
+  "name": "应用管家",
+  "package": "com.yunpan.appmanage",
+  "version": "1.7.7",
+  "versionCode": "1776",
+  "error": null,
+  "icon": "icons/appmanage-8418ca.png",
+  "files": [
+   "1.77.apk.1"
+  ],
+  "latestFile": "1.77.apk.1",
+  "latestSize": 15472101,
+  "latestUrl": "https://github.com/wudishiduomojimo324/netamade-appstore-mirror/releases/download/appstore-202610/appmanage-8418ca__1.77.apk.1"
+ },
+ {
+  "code": "audiobox-7089c6",
+  "name": "腾讯视频",
+  "package": "com.tencent.qqlive.audiobox",
+  "version": "2.7.0.18",
+  "versionCode": "2070018",
+  "error": null,
+  "icon": "icons/audiobox-7089c6.png",
+  "files": [
+   "TxVideo.apk"
+  ],
+  "latestFile": "TxVideo.apk",
+  "latestSize": 39848952,
+  "latestUrl": "https://github.com/wudishiduomojimo324/netamade-appstore-mirror/releases/download/appstore-202610/audiobox-7089c6__TxVideo.apk"
+ },
+ {
+  "code": "auto-bad607",
+  "name": "酷狗音乐",
+  "package": "com.kugou.android.auto",
+  "version": "6.1.0",
+  "versionCode": "10400",
+  "error": null,
+  "icon": "icons/auto-bad607.png",
+  "files": [
+   "com.kugou.android.auto.apk.1"
+  ],
+  "latestFile": "com.kugou.android.auto.apk.1",
+  "latestSize": 108786592,
+  "latestUrl": "https://github.com/wudishiduomojimo324/netamade-appstore-mirror/releases/download/appstore-202610/auto-bad607__com.kugou.android.auto.apk.1"
+ },
+ {
+  "code": "aweme-2332cb",
+  "name": "抖音短视频",
+  "package": "com.ss.android.ugc.aweme",
+  "version": "9.9.82",
+  "versionCode": "991082",
+  "error": null,
+  "icon": "icons/aweme-2332cb.jpg",
+  "files": [
+   "apk"
+  ],
+  "latestFile": "apk",
+  "latestSize": 14457370,
+  "latestUrl": "https://github.com/wudishiduomojimo324/netamade-appstore-mirror/releases/download/appstore-202610/aweme-2332cb__apk"
+ },
+ {
+  "code": "awemenplay-a28813",
+  "name": "抖音短视频",
+  "package": "com.ss.android.ugc.awemenplay",
+  "version": "9.9.1504",
+  "versionCode": "9901504",
+  "error": null,
+  "icon": "icons/awemenplay-a28813.png",
+  "files": [
+   "Douyin_Car_Edition.apk"
+  ],
+  "latestFile": "Douyin_Car_Edition.apk",
+  "latestSize": 19621239,
+  "latestUrl": "https://github.com/wudishiduomojimo324/netamade-appstore-mirror/releases/download/appstore-202610/awemenplay-a28813__Douyin_Car_Edition.apk"
+ },
+ {
+  "code": "bn-85b98b",
+  "name": "NewBox",
+  "package": "com.truthvision.homecare.nb.bn",
+  "version": "1.9.6",
+  "versionCode": "114",
+  "error": null,
+  "icon": "icons/bn-85b98b.png",
+  "files": [
+   "NewBox_v1.9.6__20260824.apk.1"
+  ],
+  "latestFile": "NewBox_v1.9.6__20260824.apk.1",
+  "latestSize": 119593228,
+  "latestUrl": "https://github.com/wudishiduomojimo324/netamade-appstore-mirror/releases/download/appstore-202610/bn-85b98b__NewBox_v1.9.6__20260824.apk.1"
+ },
+ {
+  "code": "car-063149",
+  "name": "DJ音乐盒车机",
+  "package": "com.djbox.car",
+  "version": "4.2.0",
+  "versionCode": "46",
+  "error": null,
+  "icon": "icons/car-063149.png",
+  "files": [
+   "DJv4.2.0fun_apk.apk"
+  ],
+  "latestFile": "DJv4.2.0fun_apk.apk",
+  "latestSize": 12166860,
+  "latestUrl": "https://github.com/wudishiduomojimo324/netamade-appstore-mirror/releases/download/appstore-202610/car-063149__DJv4.2.0fun_apk.apk"
+ },
+ {
+  "code": "car-82a073",
+  "name": "汽水音乐",
+  "package": "com.luna.music.car",
+  "version": "1.1.27",
+  "versionCode": "101027",
+  "error": null,
+  "icon": "icons/car-82a073.webp",
+  "files": [
+   "-1.0.10.apk",
+   "qishuiyinyue_1.1.27101027.apk"
+  ],
+  "latestFile": "qishuiyinyue_1.1.27101027.apk",
+  "latestSize": 43206064,
+  "latestUrl": "https://github.com/wudishiduomojimo324/netamade-appstore-mirror/releases/download/appstore-202610/car-82a073__qishuiyinyue_1.1.27101027.apk"
+ },
+ {
+  "code": "car-9bbb04",
+  "name": "MusicFree",
+  "package": "fun.upup.musicfree",
+  "version": "2.0.6",
+  "versionCode": "20260829",
+  "error": null,
+  "icon": "icons/car-9bbb04.png",
+  "files": [
+   "MusicFree-1.0.7-universal.apk",
+   "MusicFree-2.0.0-universal.apk",
+   "MusicFree-2.0.6-universal.apk",
+   "MusicFree-Car-v1.0.0.apk"
+  ],
+  "latestFile": "MusicFree-2.0.6-universal.apk",
+  "latestSize": 35646093,
+  "latestUrl": "https://github.com/wudishiduomojimo324/netamade-appstore-mirror/releases/download/appstore-202610/car-9bbb04__MusicFree-2.0.6-universal.apk"
+ },
+ {
+  "code": "carlifevehicle-3836c9",
+  "name": "百度 CarLife",
+  "package": "com.muyetuge.carlifevehicle",
+  "version": "2025.09.26",
+  "versionCode": "20250926",
+  "error": null,
+  "icon": "icons/carlifevehicle-3836c9.png",
+  "files": [
+   "CarLife___v2026.01.31.1511.apk.1",
+   "Carlife4.0_2025.9.30__S_WLAN__USB.apk"
+  ],
+  "latestFile": "Carlife4.0_2025.9.30__S_WLAN__USB.apk",
+  "latestSize": 11149415,
+  "latestUrl": "https://github.com/wudishiduomojimo324/netamade-appstore-mirror/releases/download/appstore-202610/carlifevehicle-3836c9__Carlife4.0_2025.9.30__S_WLAN__USB.apk"
+ },
+ {
+  "code": "carlifevehicle-3836c9-2",
+  "name": "百度 CarLife",
+  "package": "com.muyetuge.carlifevehicle",
+  "version": "2025.09.29",
+  "versionCode": "20250929",
+  "error": null,
+  "icon": "icons/carlifevehicle-3836c9-2.png",
+  "files": [
+   "com.muyetuge.carlifevehicle-2025.09.29-20250929.apk"
+  ],
+  "latestFile": "com.muyetuge.carlifevehicle-2025.09.29-20250929.apk",
+  "latestSize": 7427661,
+  "latestUrl": "https://github.com/wudishiduomojimo324/netamade-appstore-mirror/releases/download/appstore-202610/carlifevehicle-3836c9-2__com.muyetuge.carlifevehicle-2025.09.29-20250929.apk"
+ },
+ {
+  "code": "cast-33bf30",
+  "name": "九龙神火罩",
+  "package": "com.jiulong.cast",
+  "version": "2.7",
+  "versionCode": "29",
+  "error": null,
+  "icon": "icons/cast-33bf30.png",
+  "files": [
+   "-v2.7-release.apk.1"
+  ],
+  "latestFile": "-v2.7-release.apk.1",
+  "latestSize": 6859278,
+  "latestUrl": "https://github.com/wudishiduomojimo324/netamade-appstore-mirror/releases/download/appstore-202610/cast-33bf30__-v2.7-release.apk.1"
+ },
+ {
+  "code": "diplay-166291",
+  "name": "DiPlay",
+  "package": "com.shihab.diplay",
+  "version": "0.2.18",
+  "versionCode": "37",
+  "error": null,
+  "icon": "icons/diplay-166291.png",
+  "files": [
+   "DiPlay-0.2.18.apk"
+  ],
+  "latestFile": "DiPlay-0.2.18.apk",
+  "latestSize": 18170831,
+  "latestUrl": "https://github.com/wudishiduomojimo324/netamade-appstore-mirror/releases/download/appstore-202610/diplay-166291__DiPlay-0.2.18.apk"
+ },
+ {
+  "code": "easyconn-9645f6",
+  "name": "亿连手机互联",
+  "package": "net.easyconn",
+  "version": "7.0.1-9011d330b-202404121051",
+  "versionCode": "1562360",
+  "error": null,
+  "icon": "icons/easyconn-9645f6.png",
+  "files": [
+   "7.0.1__.apk.1"
+  ],
+  "latestFile": "7.0.1__.apk.1",
+  "latestSize": 42759120,
+  "latestUrl": "https://github.com/wudishiduomojimo324/netamade-appstore-mirror/releases/download/appstore-202610/easyconn-9645f6__7.0.1__.apk.1"
+ },
+ {
+  "code": "himovceie-1f598e",
+  "name": "影视仓",
+  "package": "com.huawei.himovceie",
+  "version": "6.2.0",
+  "versionCode": "184",
+  "error": null,
+  "icon": "icons/himovceie-1f598e.png",
+  "files": [
+   "6.2.0_opt.apk.1"
+  ],
+  "latestFile": "6.2.0_opt.apk.1",
+  "latestSize": 39103626,
+  "latestUrl": "https://github.com/wudishiduomojimo324/netamade-appstore-mirror/releases/download/appstore-202610/himovceie-1f598e__6.2.0_opt.apk.1"
+ },
+ {
+  "code": "huntianling-ad641b",
+  "name": "混天绫",
+  "package": "com.perfectapps.muviz",
+  "version": "2.7.9",
+  "versionCode": "140",
+  "error": null,
+  "icon": "icons/huntianling-ad641b.png",
+  "files": [
+   "V2.7.9.apk.1",
+   "apk"
+  ],
+  "latestFile": "V2.7.9.apk.1",
+  "latestSize": 12563737,
+  "latestUrl": "https://github.com/wudishiduomojimo324/netamade-appstore-mirror/releases/download/appstore-202610/huntianling-ad641b__V2.7.9.apk.1"
+ },
+ {
+  "code": "isulewtools-a4c447",
+  "name": "哪吒互联",
+  "package": "com.neta.isulewtools",
+  "version": "2.1.8",
+  "versionCode": "152",
+  "error": null,
+  "icon": "icons/isulewtools-a4c447.webp",
+  "files": [
+   "NETA_CONNECT-v2.1.8.apk"
+  ],
+  "latestFile": "NETA_CONNECT-v2.1.8.apk",
+  "latestSize": 35536733,
+  "latestUrl": "https://github.com/wudishiduomojimo324/netamade-appstore-mirror/releases/download/appstore-202610/isulewtools-a4c447__NETA_CONNECT-v2.1.8.apk"
+ },
+ {
+  "code": "karaoketv-5aed64",
+  "name": "全民K歌",
+  "package": "com.tencent.karaoketv",
+  "version": "5.9.8.1",
+  "versionCode": "5108",
+  "error": null,
+  "icon": "icons/karaoketv-5aed64.png",
+  "files": [
+   "K_5.9.8.1VIP.apk"
+  ],
+  "latestFile": "K_5.9.8.1VIP.apk",
+  "latestSize": 42160104,
+  "latestUrl": "https://github.com/wudishiduomojimo324/netamade-appstore-mirror/releases/download/appstore-202610/karaoketv-5aed64__K_5.9.8.1VIP.apk"
+ },
+ {
+  "code": "kwmusiccar-28105f",
+  "name": "酷我音乐",
+  "package": "cn.kuwo.kwmusiccar",
+  "version": "7.4.3.21",
+  "versionCode": "74321",
+  "error": null,
+  "icon": "icons/kwmusiccar-28105f.png",
+  "files": [
+   "Ver.7.6.6.21.apk",
+   "v7.4.3.21_.apk"
+  ],
+  "latestFile": "v7.4.3.21_.apk",
+  "latestSize": 84273246,
+  "latestUrl": "https://github.com/wudishiduomojimo324/netamade-appstore-mirror/releases/download/appstore-202610/kwmusiccar-28105f__v7.4.3.21_.apk"
+ },
+ {
+  "code": "launcher-15e1ec",
+  "name": "布丁UI",
+  "package": "com.sfcar.launcher",
+  "version": "2.0.4",
+  "versionCode": "108",
+  "error": null,
+  "icon": "icons/launcher-15e1ec.png",
+  "files": [
+   "ui2.0.4.apk"
+  ],
+  "latestFile": "ui2.0.4.apk",
+  "latestSize": 46384369,
+  "latestUrl": "https://github.com/wudishiduomojimo324/netamade-appstore-mirror/releases/download/appstore-202610/launcher-15e1ec__ui2.0.4.apk"
+ },
+ {
+  "code": "leting-40e6e4",
+  "name": "车联助手lite",
+  "package": "com.leting",
+  "version": "99999.2.2",
+  "versionCode": "99999",
+  "error": null,
+  "icon": "icons/leting-40e6e4.png",
+  "files": [
+   "lite_OV.apk"
+  ],
+  "latestFile": "lite_OV.apk",
+  "latestSize": 8726424,
+  "latestUrl": "https://github.com/wudishiduomojimo324/netamade-appstore-mirror/releases/download/appstore-202610/leting-40e6e4__lite_OV.apk"
+ },
+ {
+  "code": "light-cbd5cc",
+  "name": "红绿灯领航",
+  "package": "com.mojoxing.light",
+  "version": "2.3.2",
+  "versionCode": "2003002",
+  "error": null,
+  "icon": "icons/light-cbd5cc.png",
+  "files": [
+   "com.mojoxing.light_v2.3.2_9663.com.apk"
+  ],
+  "latestFile": "com.mojoxing.light_v2.3.2_9663.com.apk",
+  "latestSize": 5628534,
+  "latestUrl": "https://github.com/wudishiduomojimo324/netamade-appstore-mirror/releases/download/appstore-202610/light-cbd5cc__com.mojoxing.light_v2.3.2_9663.com.apk"
+ },
+ {
+  "code": "light-cbd5cc-2",
+  "name": "红绿灯领航",
+  "package": "com.mojoxing.light",
+  "version": "2.6.0",
+  "versionCode": "2003019",
+  "error": null,
+  "icon": "icons/light-cbd5cc-2.webp",
+  "files": [
+   "nav_v2.6.0_20260429_1048.apk"
+  ],
+  "latestFile": "nav_v2.6.0_20260429_1048.apk",
+  "latestSize": 6768515,
+  "latestUrl": "https://github.com/wudishiduomojimo324/netamade-appstore-mirror/releases/download/appstore-202610/light-cbd5cc-2__nav_v2.6.0_20260429_1048.apk"
+ },
+ {
+  "code": "lite-74b000",
+  "name": "番茄音乐（原畅听音乐）",
+  "package": "com.xs.fm.lite",
+  "version": "6.1.6.32",
+  "versionCode": "616",
+  "error": null,
+  "icon": "icons/lite-74b000.webp",
+  "files": [
+   "com.xs.fm.lite.apk"
+  ],
+  "latestFile": "com.xs.fm.lite.apk",
+  "latestSize": 93650903,
+  "latestUrl": "https://github.com/wudishiduomojimo324/netamade-appstore-mirror/releases/download/appstore-202610/lite-74b000__com.xs.fm.lite.apk"
+ },
+ {
+  "code": "manager-ad1c6e",
+  "name": "EX File Manager",
+  "package": "com.ace.ex.file.manager",
+  "version": "1.5.5",
+  "versionCode": "37",
+  "error": null,
+  "icon": "icons/manager-ad1c6e.png",
+  "files": [
+   "EXv1.5.5.apk"
+  ],
+  "latestFile": "EXv1.5.5.apk",
+  "latestSize": 100483158,
+  "latestUrl": "https://github.com/wudishiduomojimo324/netamade-appstore-mirror/releases/download/appstore-202610/manager-ad1c6e__EXv1.5.5.apk"
+ },
+ {
+  "code": "markethd-cf79bf",
+  "name": "沙发管家HD",
+  "package": "com.shafa.markethd",
+  "version": "4.9.53",
+  "versionCode": "339",
+  "error": null,
+  "icon": "icons/markethd-cf79bf.png",
+  "files": [
+   "-_4.9.53.apk"
+  ],
+  "latestFile": "-_4.9.53.apk",
+  "latestSize": 11560273,
+  "latestUrl": "https://github.com/wudishiduomojimo324/netamade-appstore-mirror/releases/download/appstore-202610/markethd-cf79bf__-_4.9.53.apk"
+ },
+ {
+  "code": "minimap-ca6ee2",
+  "name": "高德地图",
+  "package": "com.autonavi.minimap",
+  "version": "17.00.0.2005",
+  "versionCode": "170000",
+  "error": null,
+  "icon": "icons/minimap-ca6ee2.png",
+  "files": [
+   "17.00.0.2005_12n.apk.1",
+   "V16.10.0.2015_.apk"
+  ],
+  "latestFile": "17.00.0.2005_12n.apk.1",
+  "latestSize": 199789973,
+  "latestUrl": "https://github.com/wudishiduomojimo324/netamade-appstore-mirror/releases/download/appstore-202610/minimap-ca6ee2__17.00.0.2005_12n.apk.1"
+ },
+ {
+  "code": "mobile-e8006a",
+  "name": "LX Music",
+  "package": "cn.toside.music.mobile",
+  "version": "1.8.2",
+  "versionCode": "74003",
+  "error": null,
+  "icon": "icons/mobile-e8006a.png",
+  "files": [
+   "music.apk.1"
+  ],
+  "latestFile": "music.apk.1",
+  "latestSize": 14030650,
+  "latestUrl": "https://github.com/wudishiduomojimo324/netamade-appstore-mirror/releases/download/appstore-202610/mobile-e8006a__music.apk.1"
+ },
+ {
+  "code": "mobile-e8006a-2",
+  "name": "风火轮音乐",
+  "package": "cn.toside.music.mobile",
+  "version": "3.0.10-car",
+  "versionCode": "113003",
+  "error": null,
+  "icon": "icons/mobile-e8006a-2.png",
+  "files": [
+   "fenghuolun-music-v3.0.10-car-arm64-v8a.apk"
+  ],
+  "latestFile": "fenghuolun-music-v3.0.10-car-arm64-v8a.apk",
+  "latestSize": 19677336,
+  "latestUrl": "https://github.com/wudishiduomojimo324/netamade-appstore-mirror/releases/download/appstore-202610/mobile-e8006a-2__fenghuolun-music-v3.0.10-car-arm64-v8a.apk"
+ },
+ {
+  "code": "music-04e5ce",
+  "name": "三太子音乐",
+  "package": "com.sanztaizi.music",
+  "version": "1.0.3",
+  "versionCode": "1782039925",
+  "error": null,
+  "icon": "icons/music-04e5ce.png",
+  "files": [
+   "V1.0.0.apk.1",
+   "V1.0.2.apk.1",
+   "V1.0.3.apk.1"
+  ],
+  "latestFile": "V1.0.3.apk.1",
+  "latestSize": 15132902,
+  "latestUrl": "https://github.com/wudishiduomojimo324/netamade-appstore-mirror/releases/download/appstore-202610/music-04e5ce__V1.0.3.apk.1"
+ },
+ {
+  "code": "muvizedge-b97646",
+  "name": "Muviz Edge",
+  "package": "com.sparkine.muvizedge",
+  "version": "2.0.0.0",
+  "versionCode": "124",
+  "error": null,
+  "icon": "icons/muvizedge-b97646.png",
+  "files": [
+   "muvizEdge.apk"
+  ],
+  "latestFile": "muvizEdge.apk",
+  "latestSize": 26069152,
+  "latestUrl": "https://github.com/wudishiduomojimo324/netamade-appstore-mirror/releases/download/appstore-202610/muvizedge-b97646__muvizEdge.apk"
+ },
+ {
+  "code": "netal-05531f",
+  "name": "NETA Carplay",
+  "package": "org.community.diplay.netal",
+  "version": "0.2.14-neta.7.5.7-test",
+  "versionCode": "97",
+  "error": null,
+  "icon": "icons/netal-05531f.png",
+  "files": [
+   "NETA-CarPlay-v7.5.7.apk.1"
+  ],
+  "latestFile": "NETA-CarPlay-v7.5.7.apk.1",
+  "latestSize": 13831449,
+  "latestUrl": "https://github.com/wudishiduomojimo324/netamade-appstore-mirror/releases/download/appstore-202610/netal-05531f__NETA-CarPlay-v7.5.7.apk.1"
+ },
+ {
+  "code": "permissiondog-5caf28",
+  "name": "权限狗",
+  "package": "com.web1n.permissiondog",
+  "version": "0.1.0.45",
+  "versionCode": "71",
+  "error": null,
+  "icon": "icons/permissiondog-5caf28.png",
+  "files": [
+   "permissiondog.apk"
+  ],
+  "latestFile": "permissiondog.apk",
+  "latestSize": 1438313,
+  "latestUrl": "https://github.com/wudishiduomojimo324/netamade-appstore-mirror/releases/download/appstore-202610/permissiondog-5caf28__permissiondog.apk"
+ },
+ {
+  "code": "phonemirrorbox-97e435",
+  "name": "AutoKit",
+  "package": "cn.manstep.phonemirrorBox",
+  "version": "2025.03.19.1126",
+  "versionCode": "2112232222",
+  "error": null,
+  "icon": "icons/phonemirrorbox-97e435.png",
+  "files": [
+   "AutoKit_2025.03.19.1126.apk.1"
+  ],
+  "latestFile": "AutoKit_2025.03.19.1126.apk.1",
+  "latestSize": 10046700,
+  "latestUrl": "https://github.com/wudishiduomojimo324/netamade-appstore-mirror/releases/download/appstore-202610/phonemirrorbox-97e435__AutoKit_2025.03.19.1126.apk.1"
+ },
+ {
+  "code": "playcar-d657df",
+  "name": "DJUU车机版",
+  "package": "com.djuu.playcar",
+  "version": "1.0.1",
+  "versionCode": "1",
+  "error": null,
+  "icon": "icons/playcar-d657df.webp",
+  "files": [
+   "DJUUv1.0.1.apk"
+  ],
+  "latestFile": "DJUUv1.0.1.apk",
+  "latestSize": 35307303,
+  "latestUrl": "https://github.com/wudishiduomojimo324/netamade-appstore-mirror/releases/download/appstore-202610/playcar-d657df__DJUUv1.0.1.apk"
+ },
+ {
+  "code": "qqdownloader-84e559",
+  "name": "应用宝",
+  "package": "com.tencent.android.qqdownloader",
+  "version": "9.1.9",
+  "versionCode": "9192130",
+  "error": null,
+  "icon": "icons/qqdownloader-84e559.png",
+  "files": [
+   "apk"
+  ],
+  "latestFile": "apk",
+  "latestSize": 33129056,
+  "latestUrl": "https://github.com/wudishiduomojimo324/netamade-appstore-mirror/releases/download/appstore-202610/qqdownloader-84e559__apk"
+ },
+ {
+  "code": "simple-live-tv-c95078",
+  "name": "Simple Live TV",
+  "package": "com.xycz.simple_live_tv",
+  "version": "1.6.4",
+  "versionCode": "12604",
+  "error": null,
+  "icon": "icons/simple-live-tv-c95078.png",
+  "files": [
+   "simplelive-B-v1.6.5.apk"
+  ],
+  "latestFile": "simplelive-B-v1.6.5.apk",
+  "latestSize": 35379107,
+  "latestUrl": "https://github.com/wudishiduomojimo324/netamade-appstore-mirror/releases/download/appstore-202610/simple-live-tv-c95078__simplelive-B-v1.6.5.apk"
+ },
+ {
+  "code": "solidexplorer2-e24af0",
+  "name": "Solid Explorer",
+  "package": "pl.solidexplorer2",
+  "version": "3.4.7",
+  "versionCode": "304071",
+  "error": null,
+  "icon": "icons/solidexplorer2-e24af0.png",
+  "files": [
+   "Solid_Explorer_3.4.7-Balatan.apk"
+  ],
+  "latestFile": "Solid_Explorer_3.4.7-Balatan.apk",
+  "latestSize": 25339230,
+  "latestUrl": "https://github.com/wudishiduomojimo324/netamade-appstore-mirror/releases/download/appstore-202610/solidexplorer2-e24af0__Solid_Explorer_3.4.7-Balatan.apk"
+ },
+ {
+  "code": "tv-633b0f",
+  "name": "咪咕爱唱",
+  "package": "com.iflytek.aichang.tv",
+  "version": "9.9.012",
+  "versionCode": "990120",
+  "error": null,
+  "icon": "icons/tv-633b0f.png",
+  "files": [
+   "9.9.012.apk"
+  ],
+  "latestFile": "9.9.012.apk",
+  "latestSize": 15613508,
+  "latestUrl": "https://github.com/wudishiduomojimo324/netamade-appstore-mirror/releases/download/appstore-202610/tv-633b0f__9.9.012.apk"
+ },
+ {
+  "code": "tv-8874e7",
+  "name": "NewBox",
+  "package": "com.newbox.tv",
+  "version": "1.9.7",
+  "versionCode": "97",
+  "error": null,
+  "icon": "icons/tv-8874e7.png",
+  "files": [
+   "NewBox-1.9.7-arm64-generic-64.apk.1",
+   "NewBox-2.0.0-arm64-generic-64.apk",
+   "NewBox-2.0.7-arm64-generic-64.apk",
+   "NewBox_v1.9.6_TV_64.apk.apk.1"
+  ],
+  "latestFile": "NewBox-1.9.7-arm64-generic-64.apk.1",
+  "latestSize": 43959731,
+  "latestUrl": "https://github.com/wudishiduomojimo324/netamade-appstore-mirror/releases/download/appstore-202610/tv-8874e7__NewBox-1.9.7-arm64-generic-64.apk.1"
+ },
+ {
+  "code": "tv-917e3a",
+  "name": "OKTV",
+  "package": "com.fongmi.android.tv",
+  "version": "3.7.3",
+  "versionCode": "373",
+  "error": null,
+  "icon": "icons/tv-917e3a.png",
+  "files": [
+   "OK3.7.3-64.apk.1"
+  ],
+  "latestFile": "OK3.7.3-64.apk.1",
+  "latestSize": 81665926,
+  "latestUrl": "https://github.com/wudishiduomojimo324/netamade-appstore-mirror/releases/download/appstore-202610/tv-917e3a__OK3.7.3-64.apk.1"
+ },
+ {
+  "code": "tv-a7ee02",
+  "name": "DongYuTvWeb",
+  "package": "xyz.jdynb.tv",
+  "version": "1.0.6.3",
+  "versionCode": "9",
+  "error": null,
+  "icon": "icons/tv-a7ee02.webp",
+  "files": [
+   "DongYuTVWeb_v1.0.6.3.apk"
+  ],
+  "latestFile": "DongYuTVWeb_v1.0.6.3.apk",
+  "latestSize": 2858405,
+  "latestUrl": "https://github.com/wudishiduomojimo324/netamade-appstore-mirror/releases/download/appstore-202610/tv-a7ee02__DongYuTVWeb_v1.0.6.3.apk"
+ },
+ {
+  "code": "via-a252b9",
+  "name": "Via",
+  "package": "mark.via",
+  "version": "7.1.0",
+  "versionCode": "20260410",
+  "error": null,
+  "icon": "icons/via-a252b9.png",
+  "files": [
+   "via-release-cn_1.apk"
+  ],
+  "latestFile": "via-release-cn_1.apk",
+  "latestSize": 2612223,
+  "latestUrl": "https://github.com/wudishiduomojimo324/netamade-appstore-mirror/releases/download/appstore-202610/via-a252b9__via-release-cn_1.apk"
+ },
+ {
+  "code": "wasuvideoplayer-0fa1f5",
+  "name": "华数TV",
+  "package": "com.wasu.wasuvideoplayer",
+  "version": "7.2.9.0",
+  "versionCode": "72900",
+  "error": null,
+  "icon": "icons/wasuvideoplayer-0fa1f5.png",
+  "files": [
+   "TV_v7.2.9.0.apk"
+  ],
+  "latestFile": "TV_v7.2.9.0.apk",
+  "latestSize": 51327832,
+  "latestUrl": "https://github.com/wudishiduomojimo324/netamade-appstore-mirror/releases/download/appstore-202610/wasuvideoplayer-0fa1f5__TV_v7.2.9.0.apk"
+ },
+ {
+  "code": "wecarnavi-7b31ab",
+  "name": "腾讯地图车机版",
+  "package": "com.tencent.wecarnavi",
+  "version": "9.6.0.75",
+  "versionCode": "906000075",
+  "error": null,
+  "icon": "icons/wecarnavi-7b31ab.png",
+  "files": [
+   "V9.6.0.75.apk.1"
+  ],
+  "latestFile": "V9.6.0.75.apk.1",
+  "latestSize": 129970812,
+  "latestUrl": "https://github.com/wudishiduomojimo324/netamade-appstore-mirror/releases/download/appstore-202610/wecarnavi-7b31ab__V9.6.0.75.apk.1"
+ },
+ {
+  "code": "xbrowser-82b10d",
+  "name": "XBrowser",
+  "package": "com.mmbox.xbrowser",
+  "version": "5.5.3",
+  "versionCode": "1038",
+  "error": null,
+  "icon": "icons/xbrowser-82b10d.png",
+  "files": [
+   "xbrowser-release.apk"
+  ],
+  "latestFile": "xbrowser-release.apk",
+  "latestSize": 2051791,
+  "latestUrl": "https://github.com/wudishiduomojimo324/netamade-appstore-mirror/releases/download/appstore-202610/xbrowser-82b10d__xbrowser-release.apk"
+ },
+ {
+  "code": "zhaguotv-9dcf29",
+  "name": "吒果TV",
+  "package": "com.neta.zhaguotv",
+  "version": "2.0.6",
+  "versionCode": "22006",
+  "error": null,
+  "icon": "icons/zhaguotv-9dcf29.png",
+  "files": [
+   "TV_v2.0.6.apk",
+   "TV_v3.0.1.apk",
+   "ZhaguoTV_v2.0.4_signed.apk",
+   "ZhaguoTV_v2.0.5_signed.apk"
+  ],
+  "latestFile": "TV_v2.0.6.apk",
+  "latestSize": 31975081,
+  "latestUrl": "https://github.com/wudishiduomojimo324/netamade-appstore-mirror/releases/download/appstore-202610/zhaguotv-9dcf29__TV_v2.0.6.apk"
+ }
+]
