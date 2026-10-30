@@ -1,5 +1,4 @@
 name: Generate apps.json
-
 "on":
   workflow_dispatch:
 
@@ -20,41 +19,39 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install requests pyaxmlparser
+        run: |
+          pip install requests pyaxmlparser
+          sudo apt-get update -qq && sudo apt-get install -y -qq jq >/dev/null 2>&1 || true
 
       - name: Generate apps.json
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           REPO: wudishiduomojimo324/netamade-appstore-mirror
           TAG: appstore-202610
-          MANIFEST_B64: W3siZGlyIjogImFkLWYyY2I4MSIsICJmaWxlIjogIk1YX1BsYXllcl8yLjEyLjIteW91YXJlZmluaXNoZWQuYXBrIiwgInNpemUiOiA4NzAyODQ3MX0sIHsiZGlyIjogImFkMS05NGE2MzYiLCAiZmlsZSI6ICJ2MS4xLjJmdW5fYXBrLmFwayIsICJzaXplIjogMjEyMzkzMzZ9LCB7ImRpciI6ICJhbWFwYXV0by1kMDJmMzEiLCAiZmlsZSI6ICI5LjEuMF8tMjAyNi0wNS0xMC0xNy5hcGsiLCAic2l6ZSI6IDEzNjgyNTAyMX0sIHsiZGlyIjogImFtYXBhdXRvLWQwMmYzMSIsICJmaWxlIjogIjkuMS4wXy0yMDI2LTA1LTEwLTIyLmFwayIsICJzaXplIjogMTM2ODI1MDIxfSwgeyJkaXIiOiAiYW1hcGF1dG8tZDAyZjMxIiwgImZpbGUiOiAiOS4xLjBfLTIwMjYtMDUtMTMtMjEuYXBrIiwgInNpemUiOiAxMzY4MjUwMjF9LCB7ImRpciI6ICJhbWFwYXV0by1kMDJmMzEiLCAiZmlsZSI6ICI5LjEuMF8tMjAyNi0wNi0wNy0wOS5hcGsiLCAic2l6ZSI6IDEzNjgyNTAyMX0sIHsiZGlyIjogImFtYXBhdXRvLWQwMmYzMSIsICJmaWxlIjogIjkuMS4wXy0yMDI2LTA2LTE0LTAwLmFwayIsICJzaXplIjogMTM2ODI1MDIxfSwgeyJkaXIiOiAiYW1hcGF1dG8tZDAyZjMxIiwgImZpbGUiOiAiOS4xLjBfLTIwMjYtMDYtMTctMTguYXBrIiwgInNpemUiOiAxMzY4MjUwMjF9LCB7ImRpciI6ICJhbWFwYXV0by1kMDJmMzEiLCAiZmlsZSI6ICI5LjEuMF8tMjAyNi0wNi0zMC0xNS5hcGsiLCAic2l6ZSI6IDEzNjgyNTAyMX0sIHsiZGlyIjogImFtYXBhdXRvLWQwMmYzMSIsICJmaWxlIjogIjkuMS4wXy0yMDI2LTA3LTMxLTE0LmFwayIsICJzaXplIjogMTM2ODI1MDgwfSwgeyJkaXIiOiAiYW1hcGF1dG8tZDAyZjMxIiwgImZpbGUiOiAiOS4xLjBfLTIwMjYtMDctMzEtMTYuYXBrIiwgInNpemUiOiAxMzY4MjUwODB9LCB7ImRpciI6ICJhbWFwYXV0by1kMDJmMzEiLCAiZmlsZSI6ICI5LjEuMF8tMjAyNi0wOC0wNi0xMS5hcGsiLCAic2l6ZSI6IDEzNjgyNTA4MH0sIHsiZGlyIjogImFtYXBhdXRvLWQwMmYzMSIsICJmaWxlIjogIjkuMS4wXy0yMDI2LTA4LTEzLTE3LmFwayIsICJzaXplIjogMTM2ODI1MDgwfSwgeyJkaXIiOiAiYW1hcGF1dG8tZDAyZjMxIiwgImZpbGUiOiAiOS4xLjBfLTIwMjYtMDgtMjctMjMuYXBrIiwgInNpemUiOiAxMzY4MjUwODB9LCB7ImRpciI6ICJhbWFwbmF2aS1jOThhNTciLCAiZmlsZSI6ICJBbWFwTmF2aS1WMS4zLjAuMC5hcGsuMSIsICJzaXplIjogNzI3MTg4NTV9LCB7ImRpciI6ICJhcHBtYW5hZ2UtODQxOGNhIiwgImZpbGUiOiAiMS43Ny5hcGsuMSIsICJzaXplIjogMTU0NzIxMDF9LCB7ImRpciI6ICJhdWRpb2JveC03MDg5YzYiLCAiZmlsZSI6ICJUeFZpZGVvLmFwayIsICJzaXplIjogMzk4NDg5NTJ9LCB7ImRpciI6ICJhdXRvLWJhZDYwNyIsICJmaWxlIjogImNvbS5rdWdvdS5hbmRyb2lkLmF1dG8uYXBrLjEiLCAic2l6ZSI6IDEwODc4NjU5Mn0sIHsiZGlyIjogImF3ZW1lLTIzMzJjYiIsICJmaWxlIjogImFwayIsICJzaXplIjogMTQ0NTczNzB9LCB7ImRpciI6ICJhd2VtZW5wbGF5LWEyODgxMyIsICJmaWxlIjogIkRvdXlpbl9DYXJfRWRpdGlvbi5hcGsiLCAic2l6ZSI6IDE5NjIxMjM5fSwgeyJkaXIiOiAiYm4tODViOThiIiwgImZpbGUiOiAiTmV3Qm94X3YxLjkuNl9fMjAyNjA4MjQuYXBrLjEiLCAic2l6ZSI6IDExOTU5MzIyOH0sIHsiZGlyIjogImNhci0wNjMxNDkiLCAiZmlsZSI6ICJESnY0LjIuMGZ1bl9hcGsuYXBrIiwgInNpemUiOiAxMjE2Njg2MH0sIHsiZGlyIjogImNhci04MmEwNzMiLCAiZmlsZSI6ICItMS4wLjEwLmFwayIsICJzaXplIjogMzkwMzYyODV9LCB7ImRpciI6ICJjYXItODJhMDczIiwgImZpbGUiOiAicWlzaHVpeWlueXVlXzEuMS4yNzEwMTAyNy5hcGsiLCAic2l6ZSI6IDQzMjA2MDY0fSwgeyJkaXIiOiAiY2FyLTliYmIwNCIsICJmaWxlIjogIk11c2ljRnJlZS0xLjAuNy11bml2ZXJzYWwuYXBrIiwgInNpemUiOiAzMDI0NjMwMX0sIHsiZGlyIjogImNhci05YmJiMDQiLCAiZmlsZSI6ICJNdXNpY0ZyZWUtMi4wLjAtdW5pdmVyc2FsLmFwayIsICJzaXplIjogMzU2NDMwMTN9LCB7ImRpciI6ICJjYXItOWJiYjA0IiwgImZpbGUiOiAiTXVzaWNGcmVlLTIuMC42LXVuaXZlcnNhbC5hcGsiLCAic2l6ZSI6IDM1NjQ2MDkzfSwgeyJkaXIiOiAiY2FyLTliYmIwNCIsICJmaWxlIjogIk11c2ljRnJlZS1DYXItdjEuMC4wLmFwayIsICJzaXplIjogMTg5NDEyMzJ9LCB7ImRpciI6ICJjYXJsaWZldmVoaWNsZS0zODM2YzktMiIsICJmaWxlIjogImNvbS5tdXlldHVnZS5jYXJsaWZldmVoaWNsZS0yMDI1LjA5LjI5LTIwMjUwOTI5LmFwayIsICJzaXplIjogNzQyNzY2MX0sIHsiZGlyIjogImNhcmxpZmV2ZWhpY2xlLTM4MzZjOSIsICJmaWxlIjogIkNhckxpZmVfX192MjAyNi4wMS4zMS4xNTExLmFway4xIiwgInNpemUiOiA0NDYxNzY2fSwgeyJkaXIiOiAiY2FybGlmZXZlaGljbGUtMzgzNmM5IiwgImZpbGUiOiAiQ2FybGlmZTQuMF8yMDI1LjkuMzBfX1NfV0xBTl9fVVNCLmFwayIsICJzaXplIjogMTExNDk0MTV9LCB7ImRpciI6ICJjYXN0LTMzYmYzMCIsICJmaWxlIjogIi12Mi43LXJlbGVhc2UuYXBrLjEiLCAic2l6ZSI6IDY4NTkyNzh9LCB7ImRpciI6ICJkaXBsYXktMTY2MjkxIiwgImZpbGUiOiAiRGlQbGF5LTAuMi4xOC5hcGsiLCAic2l6ZSI6IDE4MTcwODMxfSwgeyJkaXIiOiAiZWFzeWNvbm4tOTY0NWY2IiwgImZpbGUiOiAiNy4wLjFfXy5hcGsuMSIsICJzaXplIjogNDI3NTkxMjB9LCB7ImRpciI6ICJoaW1vdmNlaWUtMWY1OThlIiwgImZpbGUiOiAiNi4yLjBfb3B0LmFway4xIiwgInNpemUiOiAzOTEwMzYyNn0sIHsiZGlyIjogImh1bnRpYW5saW5nLWFkNjQxYiIsICJmaWxlIjogIlYyLjcuOS5hcGsuMSIsICJzaXplIjogMTI1NjM3Mzd9LCB7ImRpciI6ICJodW50aWFubGluZy1hZDY0MWIiLCAiZmlsZSI6ICJhcGsiLCAic2l6ZSI6IDEyNDU3MTc5fSwgeyJkaXIiOiAiaXN1bGV3dG9vbHMtYTRjNDQ3IiwgImZpbGUiOiAiTkVUQV9DT05ORUNULXYyLjEuOC5hcGsiLCAic2l6ZSI6IDM1NTM2NzMzfSwgeyJkaXIiOiAia2FyYW9rZXR2LTVhZWQ2NCIsICJmaWxlIjogIktfNS45LjguMVZJUC5hcGsiLCAic2l6ZSI6IDQyMTYwMTA0fSwgeyJkaXIiOiAia3dtdXNpY2Nhci0yODEwNWYiLCAiZmlsZSI6ICJWZXIuNy42LjYuMjEuYXBrIiwgInNpemUiOiA4MTEyNzExNH0sIHsiZGlyIjogImt3bXVzaWNjYXItMjgxMDVmIiwgImZpbGUiOiAidjcuNC4zLjIxXy5hcGsiLCAic2l6ZSI6IDg0MjczMjQ2fSwgeyJkaXIiOiAibGF1bmNoZXItMTVlMWVjIiwgImZpbGUiOiAidWkyLjAuNC5hcGsiLCAic2l6ZSI6IDQ2Mzg0MzY5fSwgeyJkaXIiOiAibGV0aW5nLTQwZTZlNCIsICJmaWxlIjogImxpdGVfT1YuYXBrIiwgInNpemUiOiA4NzI2NDI0fSwgeyJkaXIiOiAibGlnaHQtY2JkNWNjLTIiLCAiZmlsZSI6ICJuYXZfdjIuNi4wXzIwMjYwNDI5XzEwNDguYXBrIiwgInNpemUiOiA2NzY4NTE1fSwgeyJkaXIiOiAibGlnaHQtY2JkNWNjIiwgImZpbGUiOiAiY29tLm1vam94aW5nLmxpZ2h0X3YyLjMuMl85NjYzLmNvbS5hcGsiLCAic2l6ZSI6IDU2Mjg1MzR9LCB7ImRpciI6ICJsaXRlLTc0YjAwMCIsICJmaWxlIjogImNvbS54cy5mbS5saXRlLmFwayIsICJzaXplIjogOTM2NTA5MDN9LCB7ImRpciI6ICJtYW5hZ2VyLWFkMWM2ZSIsICJmaWxlIjogIkVYdjEuNS41LmFwayIsICJzaXplIjogMTAwNDgzMTU4fSwgeyJkaXIiOiAibWFya2V0aGQtY2Y3OWJmIiwgImZpbGUiOiAiLV80LjkuNTMuYXBrIiwgInNpemUiOiAxMTU2MDI3M30sIHsiZGlyIjogIm1pbmltYXAtY2E2ZWUyIiwgImZpbGUiOiAiMTcuMDAuMC4yMDA1XzEybi5hcGsuMSIsICJzaXplIjogMTk5Nzg5OTczfSwgeyJkaXIiOiAibWluaW1hcC1jYTZlZTIiLCAiZmlsZSI6ICJWMTYuMTAuMC4yMDE1Xy5hcGsiLCAic2l6ZSI6IDE2OTM3NDAyNn0sIHsiZGlyIjogIm1vYmlsZS1lODAwNmEtMiIsICJmaWxlIjogImZlbmdodW9sdW4tbXVzaWMtdjMuMC4xMC1jYXItYXJtNjQtdjhhLmFwayIsICJzaXplIjogMTk2NzczMzZ9LCB7ImRpciI6ICJtb2JpbGUtZTgwMDZhIiwgImZpbGUiOiAibXVzaWMuYXBrLjEiLCAic2l6ZSI6IDE0MDMwNjUwfSwgeyJkaXIiOiAibXVzaWMtMDRlNWNlIiwgImZpbGUiOiAiVjEuMC4wLmFway4xIiwgInNpemUiOiAxNDY2NzE2Nn0sIHsiZGlyIjogIm11c2ljLTA0ZTVjZSIsICJmaWxlIjogIlYxLjAuMi5hcGsuMSIsICJzaXplIjogMTQ2Njk0MjJ9LCB7ImRpciI6ICJtdXNpYy0wNGU1Y2UiLCAiZmlsZSI6ICJWMS4wLjMuYXBrLjEiLCAic2l6ZSI6IDE1MTMyOTAyfSwgeyJkaXIiOiAibXV2aXplZGdlLWI5NzY0NiIsICJmaWxlIjogIm11dml6RWRnZS5hcGsiLCAic2l6ZSI6IDI2MDY5MTUyfSwgeyJkaXIiOiAibmV0YWwtMDU1MzFmIiwgImZpbGUiOiAiTkVUQS1DYXJQbGF5LXY3LjUuNy5hcGsuMSIsICJzaXplIjogMTM4MzE0NDl9LCB7ImRpciI6ICJwZXJtaXNzaW9uZG9nLTVjYWYyOCIsICJmaWxlIjogInBlcm1pc3Npb25kb2cuYXBrIiwgInNpemUiOiAxNDM4MzEzfSwgeyJkaXIiOiAicGhvbmVtaXJyb3Jib3gtOTdlNDM1IiwgImZpbGUiOiAiQXV0b0tpdF8yMDI1LjAzLjE5LjExMjYuYXBrLjEiLCAic2l6ZSI6IDEwMDQ2NzAwfSwgeyJkaXIiOiAicGxheWNhci1kNjU3ZGYiLCAiZmlsZSI6ICJESlVVdjEuMC4xLmFwayIsICJzaXplIjogMzUzMDczMDN9LCB7ImRpciI6ICJxcWRvd25sb2FkZXItODRlNTU5IiwgImZpbGUiOiAiYXBrIiwgInNpemUiOiAzMzEyOTA1Nn0sIHsiZGlyIjogInNpbXBsZS1saXZlLXR2LWM5NTA3OCIsICJmaWxlIjogInNpbXBsZWxpdmUtQi12MS42LjUuYXBrIiwgInNpemUiOiAzNTM3OTEwN30sIHsiZGlyIjogInNvbGlkZXhwbG9yZXIyLWUyNGFmMCIsICJmaWxlIjogIlNvbGlkX0V4cGxvcmVyXzMuNC43LUJhbGF0YW4uYXBrIiwgInNpemUiOiAyNTMzOTIzMH0sIHsiZGlyIjogInR2LTYzM2IwZiIsICJmaWxlIjogIjkuOS4wMTIuYXBrIiwgInNpemUiOiAxNTYxMzUwOH0sIHsiZGlyIjogInR2LTg4NzRlNyIsICJmaWxlIjogIk5ld0JveC0xLjkuNy1hcm02NC1nZW5lcmljLTY0LmFway4xIiwgInNpemUiOiA0Mzk1OTczMX0sIHsiZGlyIjogInR2LTg4NzRlNyIsICJmaWxlIjogIk5ld0JveC0yLjAuMC1hcm02NC1nZW5lcmljLTY0LmFwayIsICJzaXplIjogNDAxNzM1Njh9LCB7ImRpciI6ICJ0di04ODc0ZTciLCAiZmlsZSI6ICJOZXdCb3gtMi4wLjctYXJtNjQtZ2VuZXJpYy02NC5hcGsiLCAic2l6ZSI6IDQxMjMzMjY0fSwgeyJkaXIiOiAidHYtODg3NGU3IiwgImZpbGUiOiAiTmV3Qm94X3YxLjkuNl9UVl82NC5hcGsuYXBrLjEiLCAic2l6ZSI6IDQzOTU1MzM5fSwgeyJkaXIiOiAidHYtOTE3ZTNhIiwgImZpbGUiOiAiT0szLjcuMy02NC5hcGsuMSIsICJzaXplIjogODE2NjU5MjZ9LCB7ImRpciI6ICJ0di1hN2VlMDIiLCAiZmlsZSI6ICJEb25nWXVUVldlYl92MS4wLjYuMy5hcGsiLCAic2l6ZSI6IDI4NTg0MDV9LCB7ImRpciI6ICJ2aWEtYTI1MmI5IiwgImZpbGUiOiAidmlhLXJlbGVhc2UtY25fMS5hcGsiLCAic2l6ZSI6IDI2MTIyMjN9LCB7ImRpciI6ICJ3YXN1dmlkZW9wbGF5ZXItMGZhMWY1IiwgImZpbGUiOiAiVFZfdjcuMi45LjAuYXBrIiwgInNpemUiOiA1MTMyNzgzMn0sIHsiZGlyIjogIndlY2FybmF2aS03YjMxYWIiLCAiZmlsZSI6ICJWOS42LjAuNzUuYXBrLjEiLCAic2l6ZSI6IDEyOTk3MDgxMn0sIHsiZGlyIjogInhicm93c2VyLTgyYjEwZCIsICJmaWxlIjogInhicm93c2VyLXJlbGVhc2UuYXBrIiwgInNpemUiOiAyMDUxNzkxfSwgeyJkaXIiOiAiemhhZ3VvdHYtOWRjZjI5IiwgImZpbGUiOiAiVFZfdjIuMC42LmFwayIsICJzaXplIjogMzE5NzUwODF9LCB7ImRpciI6ICJ6aGFndW90di05ZGNmMjkiLCAiZmlsZSI6ICJUVl92My4wLjEuYXBrIiwgInNpemUiOiAzMTkwOTU0NX0sIHsiZGlyIjogInpoYWd1b3R2LTlkY2YyOSIsICJmaWxlIjogIlpoYWd1b1RWX3YyLjAuNF9zaWduZWQuYXBrIiwgInNpemUiOiAzMTk1ODY5N30sIHsiZGlyIjogInpoYWd1b3R2LTlkY2YyOSIsICJmaWxlIjogIlpoYWd1b1RWX3YyLjAuNV9zaWduZWQuYXBrIiwgInNpemUiOiAzMTk3MDk4NX1d
         run: |
           set -euo pipefail
           mkdir -p /tmp/appsinfo
           cd /tmp/appsinfo
 
-          cat > manifest.json <<'EOF2'
-__MANIFEST_PLACEHOLDER__
-EOF2
+          # 从仓库读取 manifest
+          cp "$GITHUB_WORKSPACE/mirror-manifest.json" ./manifest.json
 
-          python <<'PY'
-import json, os, base64, subprocess, tempfile
+          # 获取 release assets 列表（asset id 映射）
+          gh api "repos/${REPO}/releases/tags/${TAG}" --jq '.assets[] | {name: .name, id: .id}' > assets.json
 
-manifest_b64 = os.environ["MANIFEST_B64"]
+          # 生成 apps.json
+          python3 <<'PY'
+import json, os, subprocess, urllib.request
+
 repo = os.environ["REPO"]
 tag = os.environ["TAG"]
-
-items = json.loads(base64.b64decode(manifest_b64).decode("utf-8"))
-
-# 按 dir 分组，每组取最大文件
-by_dir = {}
-for x in items:
-    by_dir.setdefault(x["dir"], []).append(x)
-
-# 读取仓库中已有 icons 列表（通过 API）
-import urllib.request
 token = os.environ.get("GH_TOKEN", "")
 
+items = json.load(open("/tmp/appsinfo/manifest.json", encoding="utf-8"))
+assets = json.load(open("/tmp/appsinfo/assets.json", encoding="utf-8"))
+asset_id = {a["name"]: a["id"] for a in assets}
+
+# 读取仓库 icons
 def gh_api(path):
     req = urllib.request.Request(f"https://api.github.com/repos/{repo}/{path}")
     req.add_header("Authorization", f"Bearer {token}")
@@ -67,29 +64,38 @@ try:
     for entry in gh_api("contents/icons"):
         icons.append(entry["name"])
 except Exception as e:
-    print("icons fetch error:", e)
+    print("icons error:", e)
 
-# 下载并解析每个目录的最大 APK
+# 按 dir 分组，每组取最大文件
+by_dir = {}
+for x in items:
+    by_dir.setdefault(x["dir"], []).append(x)
+
 from pyaxmlparser import APK
 
 apps = []
 for d in sorted(by_dir.keys()):
     files = by_dir[d]
     latest = max(files, key=lambda x: x["size"])
-    asset = f"{d}__{latest['file']}"
-    url = f"https://github.com/{repo}/releases/download/{tag}/{asset}"
-    dst = os.path.join("/tmp/appsinfo", asset.replace("/", "_"))
+    asset_name = f"{d}__{latest['file']}"
+    url = f"https://github.com/{repo}/releases/download/{tag}/{asset_name}"
     print(f"解析 {d} ({latest['file']}, {latest['size']/1048576:.1f}MB) ...", flush=True)
     meta = {}
+    apk_path = None
     try:
-        # 下载
+        # 用 gh 下载指定 asset（通过 id，避免通配符问题）
+        aid = asset_id.get(asset_name)
+        if not aid:
+            raise RuntimeError(f"asset not found: {asset_name}")
+        gh api -H "Accept: application/octet-stream" \
+            "repos/${REPO}/releases/assets/${aid}" > "${asset_name}" 2>/dev/null || true
+        # gh api 二进制下载可能失败，改用 curl
+        apk_path = f"/tmp/appsinfo/{asset_name.replace('/', '_')}"
+        dl_url = f"https://github.com/{repo}/releases/download/{tag}/{asset_name}"
         subprocess.run(
-            ["gh", "release", "download", tag, "--repo", repo, "--pattern", asset,
-             "--dir", "/tmp/appsinfo", "--clobber"],
-            check=True, capture_output=True, timeout=600,
+            ["curl", "-sL", "--retry", "3", "-o", apk_path, dl_url],
+            check=True, timeout=600,
         )
-        # 文件名为 asset
-        apk_path = os.path.join("/tmp/appsinfo", asset)
         apk = APK(apk_path)
         meta = {
             "package": apk.package,
@@ -100,10 +106,10 @@ for d in sorted(by_dir.keys()):
     except Exception as e:
         meta = {"error": str(e)[:200]}
     finally:
-        try: os.remove(apk_path)
-        except Exception: pass
+        if apk_path:
+            try: os.remove(apk_path)
+            except Exception: pass
 
-    # 找图标
     icon = None
     for ic in icons:
         if ic.startswith(d + "."):
@@ -124,7 +130,6 @@ for d in sorted(by_dir.keys()):
         "latestUrl": url,
     })
 
-# 写 apps.json
 with open("/tmp/appsinfo/apps.json", "w", encoding="utf-8") as f:
     json.dump(apps, f, ensure_ascii=False, indent=1)
 
@@ -134,10 +139,8 @@ PY
 
       - name: Commit apps.json
         run: |
-          cd /tmp/appsinfo
-          python -c "print('apps.json generated')"
+          cp /tmp/appsinfo/apps.json "$GITHUB_WORKSPACE/apps.json"
           cd "$GITHUB_WORKSPACE"
-          cp /tmp/appsinfo/apps.json ./apps.json
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add apps.json
