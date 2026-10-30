@@ -1,5 +1,5 @@
 name: Generate apps.json
-"on":
+on:
   workflow_dispatch:
 
 permissions:
