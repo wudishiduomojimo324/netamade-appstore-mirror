@@ -1,0 +1,87 @@
+name: Mirror Missing Assets
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Download and upload missing assets
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RELEASE_ID: "428734514"
+          REPO: wudishiduomojimo324/netamade-appstore-mirror
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/mirror
+          cd /tmp/mirror
+
+          # 8 个缺失文件: dir  file  size  url
+          declare -a DIRS=(
+            "amapauto-d02f31"
+            "amapauto-d02f31"
+            "amapauto-d02f31"
+            "amapauto-d02f31"
+            "amapauto-d02f31"
+            "amapauto-d02f31"
+            "minimap-ca6ee2"
+            "minimap-ca6ee2"
+          )
+          declare -a FILES=(
+            "9.1.0_-2026-06-30-15.apk"
+            "9.1.0_-2026-07-31-14.apk"
+            "9.1.0_-2026-07-31-16.apk"
+            "9.1.0_-2026-08-06-11.apk"
+            "9.1.0_-2026-08-13-17.apk"
+            "9.1.0_-2026-08-27-23.apk"
+            "17.00.0.2005_12n.apk.1"
+            "V16.10.0.2015_.apk"
+          )
+          declare -a SIZES=(
+            "136825021"
+            "136825080"
+            "136825080"
+            "136825080"
+            "136825080"
+            "136825080"
+            "199789973"
+            "169374026"
+          )
+
+          for i in "${!FILES[@]}"; do
+            DIR="${DIRS[$i]}"
+            FILE="${FILES[$i]}"
+            SIZE="${SIZES[$i]}"
+            NAME="${DIR}__${FILE}"
+            URL="https://media.githubusercontent.com/media/z0brk/netamade-releases/appstore/apks/${DIR}/${FILE}"
+
+            echo "=== [${i}/8] ${NAME} (${SIZE} bytes) ==="
+
+            # 下载
+            echo "Downloading ${URL} ..."
+            curl -sL --retry 5 --retry-delay 5 -o "${FILE}" "${URL}"
+            ACTUAL=$(stat -c%s "${FILE}")
+            if [ "$ACTUAL" != "$SIZE" ]; then
+              echo "ERROR: size mismatch ${ACTUAL} != ${SIZE}"
+              exit 1
+            fi
+            echo "Downloaded OK (${ACTUAL} bytes)"
+
+            # 上传到 release
+            echo "Uploading to release ${RELEASE_ID} ..."
+            gh release upload "${RELEASE_ID}" "${FILE}" --repo "${REPO}" --clobber -R "${REPO}"
+            echo "Uploaded ${NAME}"
+
+            # 删除本地文件，释放 runner 磁盘
+            rm -f "${FILE}"
+          done
+
+          echo "ALL 8 ASSETS MIRRORED SUCCESSFULLY"
