@@ -790,5 +790,20 @@
   "latestFile": "TV_v2.0.6.apk",
   "latestSize": 31975081,
   "latestUrl": "https://github.com/wudishiduomojimo324/netamade-appstore-mirror/releases/download/appstore-202610/zhaguotv-9dcf29__TV_v2.0.6.apk"
+ },
+ {
+  "code": "netaguard-live",
+  "name": "乾坤守护·美式版",
+  "package": "com.neta.netaguard",
+  "version": "1.0.0",
+  "versionCode": "1",
+  "error": null,
+  "icon": null,
+  "files": [
+   "NetaGuard_v1.0.0.apk"
+  ],
+  "latestFile": "NetaGuard_v1.0.0.apk",
+  "latestSize": 83559971,
+  "latestUrl": "https://github.com/wudishiduomojimo324/netamade-appstore-mirror/releases/download/appstore-202610/netaguard-live__NetaGuard_v1.0.0.apk"
  }
 ]
