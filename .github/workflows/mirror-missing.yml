@@ -17,14 +17,14 @@ jobs:
       - name: Download and upload missing assets
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          RELEASE_ID: "428734514"
+          RELEASE_TAG: appstore-202610
           REPO: wudishiduomojimo324/netamade-appstore-mirror
         run: |
           set -euo pipefail
           mkdir -p /tmp/mirror
           cd /tmp/mirror
 
-          # 8 个缺失文件: dir  file  size  url
+          # 8 个缺失文件: dir  file  size
           declare -a DIRS=(
             "amapauto-d02f31"
             "amapauto-d02f31"
@@ -65,7 +65,7 @@ jobs:
 
             echo "=== [${i}/8] ${NAME} (${SIZE} bytes) ==="
 
-            # 下载
+            # 下载（runner 内网速度快）
             echo "Downloading ${URL} ..."
             curl -sL --retry 5 --retry-delay 5 -o "${FILE}" "${URL}"
             ACTUAL=$(stat -c%s "${FILE}")
@@ -75,9 +75,9 @@ jobs:
             fi
             echo "Downloaded OK (${ACTUAL} bytes)"
 
-            # 上传到 release
-            echo "Uploading to release ${RELEASE_ID} ..."
-            gh release upload "${RELEASE_ID}" "${FILE}" --repo "${REPO}" --clobber -R "${REPO}"
+            # 上传到 release（用 tag 名称）
+            echo "Uploading to release ${RELEASE_TAG} ..."
+            gh release upload "${RELEASE_TAG}" "${FILE}" --repo "${REPO}" --clobber
             echo "Uploaded ${NAME}"
 
             # 删除本地文件，释放 runner 磁盘
