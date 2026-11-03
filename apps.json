@@ -517,18 +517,19 @@
  {
   "code": "mobile-e8006a",
   "name": "LX Music",
-  "description": "洛雪音乐助手移动版（开源 lyswhut/lx-music-mobile），支持自定义音源与无损下载。",
+  "description": "洛雪音乐助手移动版（开源 lyswhut/lx-music-mobile），已更新到 1.9.2；支持自定义音源与无损下载。",
   "package": "cn.toside.music.mobile",
-  "version": "1.8.2",
-  "versionCode": "74003",
+  "version": "1.9.2",
+  "versionCode": "79003",
   "error": null,
   "icon": "icons/mobile-e8006a.png",
   "files": [
+   "lx-music-mobile-v1.9.2-arm64-v8a.apk",
    "music.apk.1"
   ],
-  "latestFile": "music.apk.1",
-  "latestSize": 14030650,
-  "latestUrl": "https://github.com/wudishiduomojimo324/netamade-appstore-mirror/releases/download/appstore-202610/mobile-e8006a__music.apk.1"
+  "latestFile": "lx-music-mobile-v1.9.2-arm64-v8a.apk",
+  "latestSize": 13876866,
+  "latestUrl": "https://github.com/wudishiduomojimo324/netamade-appstore-mirror/releases/download/appstore-202610/mobile-e8006a__lx-music-mobile-v1.9.2-arm64-v8a.apk"
  },
  {
   "code": "mobile-e8006a-2",

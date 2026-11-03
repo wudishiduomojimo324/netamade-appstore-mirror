@@ -388,5 +388,11 @@
   "dir": "zhaguotv-9dcf29",
   "file": "ZhaguoTV_v2.0.5_signed.apk",
   "size": 31970985
+ },
+ {
+  "dir": "mobile-e8006a",
+  "file": "lx-music-mobile-v1.9.2-arm64-v8a.apk",
+  "size": 13876866,
+  "latest": true
  }
 ]

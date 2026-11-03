@@ -50,7 +50,9 @@ def main():
     apps = []
     for d in sorted(by_dir.keys()):
         files = by_dir[d]
-        latest = max(files, key=lambda x: x["size"])
+        # 目录内可用 latest:true 指定主推文件，否则退回「体积最大」
+        latest = next((f for f in files if f.get("latest")), None) \
+            or max(files, key=lambda x: x["size"])
         asset_name = f"{d}__{latest['file']}"
         url = f"https://github.com/{REPO}/releases/download/{TAG}/{asset_name}"
         print(f"解析 {d} ({latest['file']}, {latest['size']/1048576:.1f}MB) ...", flush=True)
