@@ -40,6 +40,13 @@ def main():
 
     from pyaxmlparser import APK
 
+    # 简介表（按目录 code 索引，人工维护在 descriptions.json）
+    descs = {}
+    try:
+        descs = json.load(open("descriptions.json", encoding="utf-8"))
+    except Exception as e:
+        print("descriptions.json 读取失败:", e, file=sys.stderr)
+
     apps = []
     for d in sorted(by_dir.keys()):
         files = by_dir[d]
@@ -81,6 +88,7 @@ def main():
         apps.append({
             "code": d,
             "name": meta.get("name"),
+            "description": descs.get(d, ""),
             "package": meta.get("package"),
             "version": meta.get("version"),
             "versionCode": meta.get("versionCode"),
