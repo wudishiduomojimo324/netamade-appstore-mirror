@@ -1,0 +1,74 @@
+{
+  "_comment": "官方上游源注册表。只有列在这里的应用会被自动更新；未列出的（C 类：美式/哪吒生态私有魔改包）保持原样，脚本绝不触碰。",
+  "_sources": {
+    "github_release": "调用 GitHub Releases API 取最新 release，按 assetPattern 挑 arm64/通用 APK",
+    "official_page": "抓取官方下载页，用 apkUrlPattern 正则提取直链，并从 URL/页面解析版本号"
+  },
+  "apps": [
+    {
+      "code": "diplay-166291",
+      "name": "DiPlay",
+      "type": "github_release",
+      "repo": "shihabal3amri/DiPlay",
+      "assetPattern": "DiPlay-.*\\.apk$",
+      "abi": "any"
+    },
+    {
+      "code": "music-e53b20",
+      "name": "SaltPlayer 椒盐音乐",
+      "type": "github_release",
+      "repo": "Moriafly/SaltPlayerSource",
+      "assetPattern": "official-arm64-v8a\\.apk$",
+      "abi": "arm64"
+    },
+    {
+      "code": "mobile-e8006a",
+      "name": "LX Music",
+      "type": "github_release",
+      "repo": "lyswhut/lx-music-mobile",
+      "assetPattern": "arm64-v8a\\.apk$",
+      "abi": "arm64"
+    },
+    {
+      "code": "car-9bbb04",
+      "name": "MusicFree",
+      "type": "github_release",
+      "repo": "maotoumao/MusicFree",
+      "assetPattern": "app-arm64-v8a-release\\.apk$",
+      "abi": "arm64"
+    },
+    {
+      "code": "browser-4d38fc",
+      "name": "Kiwi Browser",
+      "type": "github_release",
+      "repo": "kiwibrowser/src.next",
+      "assetPattern": "arm64-.*-github\\.apk$",
+      "abi": "arm64"
+    },
+    {
+      "code": "tv-917e3a",
+      "name": "OKTV (FongMi)",
+      "type": "github_release",
+      "repo": "FongMi/Release",
+      "assetPattern": "leanback-arm64_v8a\\.apk$",
+      "abi": "arm64"
+    },
+    {
+      "code": "cast-33bf30",
+      "name": "九龙神火罩 (FongMi)",
+      "type": "github_release",
+      "repo": "FongMi/Release",
+      "assetPattern": "leanback-arm64_v8a\\.apk$",
+      "abi": "arm64"
+    },
+    {
+      "code": "amapauto-d02f31",
+      "name": "高德地图车机版",
+      "type": "official_page",
+      "page": "https://auto.amap.com/download",
+      "apkUrlPattern": "https://mapdownload\\.autonavi\\.com/apps/auto/manual/[^\"']+\\.apk[^\"']*",
+      "versionFromUrl": "Auto_([0-9.]+)_release",
+      "abi": "any"
+    }
+  ]
+}
