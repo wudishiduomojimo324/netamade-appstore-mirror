@@ -1,0 +1,44 @@
+{
+ "versions": {
+  "diplay-166291": {
+   "version": "v0.2.22",
+   "asset": "diplay-166291__DiPlay-0.2.22.apk",
+   "size": 19042758
+  },
+  "music-e53b20": {
+   "version": "12.6.0",
+   "asset": "music-e53b20__12.6.0-2026110201-official-arm64-v8a.apk",
+   "size": 9943376
+  },
+  "mobile-e8006a": {
+   "version": "v1.9.2",
+   "asset": "mobile-e8006a__lx-music-mobile-v1.9.2-arm64-v8a.apk",
+   "size": 13876866
+  },
+  "car-9bbb04": {
+   "version": "v1.0.0-beta.4",
+   "asset": "car-9bbb04__app-arm64-v8a-release.apk",
+   "size": 27352715
+  },
+  "browser-4d38fc": {
+   "version": "14310011181",
+   "asset": "browser-4d38fc__com.kiwibrowser.browser-arm64-14310011181-github.apk",
+   "size": 244256017
+  },
+  "tv-917e3a": {
+   "version": "5.8.7",
+   "asset": "tv-917e3a__leanback-arm64_v8a.apk",
+   "size": 51412139
+  },
+  "cast-33bf30": {
+   "version": "5.8.7",
+   "asset": "cast-33bf30__leanback-arm64_v8a.apk",
+   "size": 51412139
+  },
+  "amapauto-d02f31": {
+   "version": "9.5.0.600013",
+   "asset": "amapauto-d02f31__Auto_9.5.0.600013_release_signed.apk",
+   "size": 154947836
+  }
+ }
+}
