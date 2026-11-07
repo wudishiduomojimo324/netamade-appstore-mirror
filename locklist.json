@@ -1,0 +1,5 @@
+{
+ "_comment": "带锁应用黑名单：这些 APK 需要美式下载中心密钥才能安装，同步时跳过。blocked=按应用目录，blockedFiles=按具体文件。",
+ "blocked": [],
+ "blockedFiles": []
+}
