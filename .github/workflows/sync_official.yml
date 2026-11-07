@@ -1,0 +1,23 @@
+name: Sync Official Upstreams
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 3 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Sync official upstreams
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          MIRROR_REPO: wudishiduomojimo324/netamade-appstore-mirror
+          RELEASE_TAG: appstore-202610
+        run: python3 scripts/sync_official.py
