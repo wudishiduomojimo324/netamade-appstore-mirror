@@ -141,12 +141,14 @@ def main():
     apps_cfg = cfg["apps"]
     print(f"注册表: {len(apps_cfg)} 个应用（其余应用保持原样）", flush=True)
 
-    # 读状态
+    # 读状态（注意必须走 contents/ 路径，否则 404 会被吞成空状态导致每天重复下载）
     try:
-        state = json.loads(api_raw("upstream-state.json"))
-    except Exception:
+        state = json.loads(api_raw("contents/upstream-state.json"))
+    except Exception as e:
+        print(f"状态文件读取失败（首次运行属正常）: {str(e)[:100]}", flush=True)
         state = {}
     state.setdefault("versions", {})
+    print(f"已记录版本: {len(state['versions'])} 个", flush=True)
 
     # 现有 Release 资产
     rel = api(f"releases/tags/{urllib.parse.quote(TAG)}")
