@@ -36,27 +36,16 @@
   "name": "高德地图",
   "description": "高德车机版 9.1，美式股东改版；本目录保留 6 个历史编译版本，安装前建议先看兼容性。",
   "package": "com.autonavi.amapauto",
-  "version": "9.1-0731@美式股东版",
+  "version": "9.5.0.600013",
   "versionCode": "26073100",
   "error": null,
   "icon": "icons/amapauto-d02f31.png",
   "files": [
-   "9.1.0_-2026-05-10-17.apk",
-   "9.1.0_-2026-05-10-22.apk",
-   "9.1.0_-2026-05-13-21.apk",
-   "9.1.0_-2026-06-07-09.apk",
-   "9.1.0_-2026-06-14-00.apk",
-   "9.1.0_-2026-06-17-18.apk",
-   "9.1.0_-2026-06-30-15.apk",
-   "9.1.0_-2026-07-31-14.apk",
-   "9.1.0_-2026-07-31-16.apk",
-   "9.1.0_-2026-08-06-11.apk",
-   "9.1.0_-2026-08-13-17.apk",
-   "9.1.0_-2026-08-27-23.apk"
+   "Auto_9.5.0.600013_release_signed.apk"
   ],
-  "latestFile": "9.1.0_-2026-07-31-14.apk",
-  "latestSize": 136825080,
-  "latestUrl": "https://github.com/wudishiduomojimo324/netamade-appstore-mirror/releases/download/appstore-202610/amapauto-d02f31__9.1.0_-2026-07-31-14.apk"
+  "latestFile": "Auto_9.5.0.600013_release_signed.apk",
+  "latestSize": 154947836,
+  "latestUrl": "https://github.com/wudishiduomojimo324/netamade-appstore-mirror/releases/download/appstore-202610/amapauto-d02f31__Auto_9.5.0.600013_release_signed.apk"
  },
  {
   "code": "amapnavi-c98a57",
@@ -208,19 +197,16 @@
   "name": "MusicFree",
   "description": "开源插件化音乐播放器（maotoumao/MusicFree），无广告，音源靠插件扩展。",
   "package": "fun.upup.musicfree",
-  "version": "2.0.6",
+  "version": "v1.0.0-beta.4",
   "versionCode": "20260829",
   "error": null,
   "icon": "icons/car-9bbb04.png",
   "files": [
-   "MusicFree-1.0.7-universal.apk",
-   "MusicFree-2.0.0-universal.apk",
-   "MusicFree-2.0.6-universal.apk",
-   "MusicFree-Car-v1.0.0.apk"
+   "app-arm64-v8a-release.apk"
   ],
-  "latestFile": "MusicFree-2.0.6-universal.apk",
-  "latestSize": 35646093,
-  "latestUrl": "https://github.com/wudishiduomojimo324/netamade-appstore-mirror/releases/download/appstore-202610/car-9bbb04__MusicFree-2.0.6-universal.apk"
+  "latestFile": "app-arm64-v8a-release.apk",
+  "latestSize": 27352715,
+  "latestUrl": "https://github.com/wudishiduomojimo324/netamade-appstore-mirror/releases/download/appstore-202610/car-9bbb04__app-arm64-v8a-release.apk"
  },
  {
   "code": "carlifevehicle-3836c9",
@@ -260,32 +246,32 @@
   "name": "九龙神火罩",
   "description": "投屏接收端，把手机画面投到车机（民间开发，Miracast/AirPlay 系协议）。",
   "package": "com.jiulong.cast",
-  "version": "2.7",
+  "version": "5.8.7",
   "versionCode": "29",
   "error": null,
   "icon": "icons/cast-33bf30.png",
   "files": [
-   "-v2.7-release.apk.1"
+   "leanback-arm64_v8a.apk"
   ],
-  "latestFile": "-v2.7-release.apk.1",
-  "latestSize": 6859278,
-  "latestUrl": "https://github.com/wudishiduomojimo324/netamade-appstore-mirror/releases/download/appstore-202610/cast-33bf30__-v2.7-release.apk.1"
+  "latestFile": "leanback-arm64_v8a.apk",
+  "latestSize": 51412139,
+  "latestUrl": "https://github.com/wudishiduomojimo324/netamade-appstore-mirror/releases/download/appstore-202610/cast-33bf30__leanback-arm64_v8a.apk"
  },
  {
   "code": "diplay-166291",
   "name": "DiPlay",
   "description": "社区投屏工具，手机画面低延迟投到车机，可当副屏用。",
   "package": "com.shihab.diplay",
-  "version": "0.2.18",
+  "version": "v0.2.22",
   "versionCode": "37",
   "error": null,
   "icon": "icons/diplay-166291.png",
   "files": [
-   "DiPlay-0.2.18.apk"
+   "DiPlay-0.2.22.apk"
   ],
-  "latestFile": "DiPlay-0.2.18.apk",
-  "latestSize": 18170831,
-  "latestUrl": "https://github.com/wudishiduomojimo324/netamade-appstore-mirror/releases/download/appstore-202610/diplay-166291__DiPlay-0.2.18.apk"
+  "latestFile": "DiPlay-0.2.22.apk",
+  "latestSize": 19042758,
+  "latestUrl": "https://github.com/wudishiduomojimo324/netamade-appstore-mirror/releases/download/appstore-202610/diplay-166291__DiPlay-0.2.22.apk"
  },
  {
   "code": "easyconn-9645f6",
@@ -519,13 +505,12 @@
   "name": "LX Music",
   "description": "洛雪音乐助手移动版（开源 lyswhut/lx-music-mobile），已更新到 1.9.2；支持自定义音源与无损下载。",
   "package": "cn.toside.music.mobile",
-  "version": "1.9.2",
+  "version": "v1.9.2",
   "versionCode": "79003",
   "error": null,
   "icon": "icons/mobile-e8006a.png",
   "files": [
-   "lx-music-mobile-v1.9.2-arm64-v8a.apk",
-   "music.apk.1"
+   "lx-music-mobile-v1.9.2-arm64-v8a.apk"
   ],
   "latestFile": "lx-music-mobile-v1.9.2-arm64-v8a.apk",
   "latestSize": 13876866,
@@ -733,16 +718,16 @@
   "name": "OKTV",
   "description": "OK 影视（FongMi TV 内核，开源），点播/直播客户端，需导入接口配置。",
   "package": "com.fongmi.android.tv",
-  "version": "3.7.3",
+  "version": "5.8.7",
   "versionCode": "373",
   "error": null,
   "icon": "icons/tv-917e3a.png",
   "files": [
-   "OK3.7.3-64.apk.1"
+   "leanback-arm64_v8a.apk"
   ],
-  "latestFile": "OK3.7.3-64.apk.1",
-  "latestSize": 81665926,
-  "latestUrl": "https://github.com/wudishiduomojimo324/netamade-appstore-mirror/releases/download/appstore-202610/tv-917e3a__OK3.7.3-64.apk.1"
+  "latestFile": "leanback-arm64_v8a.apk",
+  "latestSize": 51412139,
+  "latestUrl": "https://github.com/wudishiduomojimo324/netamade-appstore-mirror/releases/download/appstore-202610/tv-917e3a__leanback-arm64_v8a.apk"
  },
  {
   "code": "tv-a7ee02",
@@ -858,5 +843,35 @@
   "latestFile": "NetaGuard_v1.0.0.apk",
   "latestSize": 83559971,
   "latestUrl": "https://github.com/wudishiduomojimo324/netamade-appstore-mirror/releases/download/appstore-202610/netaguard-live__NetaGuard_v1.0.0.apk"
+ },
+ {
+  "code": "music-e53b20",
+  "name": "SaltPlayer 椒盐音乐",
+  "package": null,
+  "version": "12.6.0",
+  "versionCode": null,
+  "error": null,
+  "icon": null,
+  "files": [
+   "12.6.0-2026110201-official-arm64-v8a.apk"
+  ],
+  "latestFile": "12.6.0-2026110201-official-arm64-v8a.apk",
+  "latestSize": 9943376,
+  "latestUrl": "https://github.com/wudishiduomojimo324/netamade-appstore-mirror/releases/download/appstore-202610/music-e53b20__12.6.0-2026110201-official-arm64-v8a.apk"
+ },
+ {
+  "code": "browser-4d38fc",
+  "name": "Kiwi Browser",
+  "package": null,
+  "version": "14310011181",
+  "versionCode": null,
+  "error": null,
+  "icon": null,
+  "files": [
+   "com.kiwibrowser.browser-arm64-14310011181-github.apk"
+  ],
+  "latestFile": "com.kiwibrowser.browser-arm64-14310011181-github.apk",
+  "latestSize": 244256017,
+  "latestUrl": "https://github.com/wudishiduomojimo324/netamade-appstore-mirror/releases/download/appstore-202610/browser-4d38fc__com.kiwibrowser.browser-arm64-14310011181-github.apk"
  }
 ]
