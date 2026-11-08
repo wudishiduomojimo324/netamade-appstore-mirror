@@ -213,10 +213,13 @@ def main():
             url = f"https://github.com/{MIRROR}/releases/download/{TAG}/{asset_name}"
             assets[asset_name] = {"size": size}
 
-            # 只更新该应用条目，其它字段保留
+            # 只更新该应用条目，其它字段保留。
+            # version 去掉开头的 v（GitHub tag 常带 v，展示统一不带），
+            # package / versionCode / icon / description 等人工补全过的字段绝不覆盖。
+            display_ver = ver[1:] if isinstance(ver, str) and ver.startswith("v") else ver
             if code in by_code:
                 e = by_code[code]
-                e["version"] = ver
+                e["version"] = display_ver
                 e["latestFile"] = info["fileName"]
                 e["latestSize"] = size
                 e["latestUrl"] = url
@@ -225,7 +228,7 @@ def main():
             else:
                 apps_json.append({
                     "code": code, "name": name, "package": None,
-                    "version": ver, "versionCode": None, "error": None,
+                    "version": display_ver, "versionCode": None, "error": None,
                     "icon": None, "files": [info["fileName"]],
                     "latestFile": info["fileName"], "latestSize": size, "latestUrl": url,
                 })
