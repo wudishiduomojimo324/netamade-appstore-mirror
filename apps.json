@@ -873,5 +873,35 @@
   "latestFile": "com.kiwibrowser.browser-arm64-14310011181-github.apk",
   "latestSize": 244256017,
   "latestUrl": "https://github.com/wudishiduomojimo324/netamade-appstore-mirror/releases/download/appstore-202610/browser-4d38fc__com.kiwibrowser.browser-arm64-14310011181-github.apk"
+ },
+ {
+  "code": "tvbox-q215613905",
+  "name": "TVBox (Q版官方打包)",
+  "package": null,
+  "version": "20261022-1137",
+  "versionCode": null,
+  "error": null,
+  "icon": null,
+  "files": [
+   "TVBox_q215613905_20261022-1137-java64.apk"
+  ],
+  "latestFile": "TVBox_q215613905_20261022-1137-java64.apk",
+  "latestSize": 20771785,
+  "latestUrl": "https://github.com/wudishiduomojimo324/netamade-appstore-mirror/releases/download/appstore-202610/tvbox-q215613905__TVBox_q215613905_20261022-1137-java64.apk"
+ },
+ {
+  "code": "algermusic-official",
+  "name": "AlgerMusicPlayer",
+  "package": null,
+  "version": "v5.1.0",
+  "versionCode": null,
+  "error": null,
+  "icon": null,
+  "files": [
+   "AlgerMusicPlayer-5.1.0.apk"
+  ],
+  "latestFile": "AlgerMusicPlayer-5.1.0.apk",
+  "latestSize": 17326187,
+  "latestUrl": "https://github.com/wudishiduomojimo324/netamade-appstore-mirror/releases/download/appstore-202610/algermusic-official__AlgerMusicPlayer-5.1.0.apk"
  }
 ]
