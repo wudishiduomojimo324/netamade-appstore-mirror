@@ -69,6 +69,22 @@
       "apkUrlPattern": "https://mapdownload\\.autonavi\\.com/apps/auto/manual/[^\"']+\\.apk[^\"']*",
       "versionFromUrl": "Auto_([0-9.]+)_release",
       "abi": "any"
+    },
+    {
+      "code": "tvbox-q215613905",
+      "name": "TVBox (Q版官方打包)",
+      "type": "github_release",
+      "repo": "q215613905/TVBoxOSCRelease",
+      "assetPattern": "java64\\.apk$",
+      "abi": "arm64"
+    },
+    {
+      "code": "algermusic-official",
+      "name": "AlgerMusicPlayer",
+      "type": "github_release",
+      "repo": "algerkong/AlgerMusicPlayer",
+      "assetPattern": "\\.apk$",
+      "abi": "any"
     }
   ]
 }
