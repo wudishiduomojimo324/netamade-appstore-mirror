@@ -39,6 +39,16 @@
    "version": "9.5.0.600013",
    "asset": "amapauto-d02f31__Auto_9.5.0.600013_release_signed.apk",
    "size": 154947836
+  },
+  "tvbox-q215613905": {
+   "version": "20261022-1137",
+   "asset": "tvbox-q215613905__TVBox_q215613905_20261022-1137-java64.apk",
+   "size": 20771785
+  },
+  "algermusic-official": {
+   "version": "v5.1.0",
+   "asset": "algermusic-official__AlgerMusicPlayer-5.1.0.apk",
+   "size": 17326187
   }
  }
 }
