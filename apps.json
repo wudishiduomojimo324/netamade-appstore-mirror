@@ -877,9 +877,9 @@
  {
   "code": "tvbox-q215613905",
   "name": "TVBox (Q版官方打包)",
-  "package": null,
+  "package": "com.github.tvbox.osc.jun",
   "version": "20261022-1137",
-  "versionCode": null,
+  "versionCode": "1",
   "error": null,
   "icon": null,
   "files": [
@@ -892,9 +892,9 @@
  {
   "code": "algermusic-official",
   "name": "AlgerMusicPlayer",
-  "package": null,
-  "version": "v5.1.0",
-  "versionCode": null,
+  "package": "com.algermusic.app",
+  "version": "5.1.0",
+  "versionCode": "3",
   "error": null,
   "icon": null,
   "files": [
