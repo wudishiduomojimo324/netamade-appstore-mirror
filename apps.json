@@ -246,7 +246,7 @@
   "name": "九龙神火罩",
   "description": "投屏接收端，把手机画面投到车机（民间开发，Miracast/AirPlay 系协议）。",
   "package": "com.jiulong.cast",
-  "version": "5.8.7",
+  "version": "5.8.8",
   "versionCode": "29",
   "error": null,
   "icon": "icons/cast-33bf30.png",
@@ -254,7 +254,7 @@
    "leanback-arm64_v8a.apk"
   ],
   "latestFile": "leanback-arm64_v8a.apk",
-  "latestSize": 51412139,
+  "latestSize": 57691393,
   "latestUrl": "https://github.com/wudishiduomojimo324/netamade-appstore-mirror/releases/download/appstore-202610/cast-33bf30__leanback-arm64_v8a.apk"
  },
  {
@@ -718,7 +718,7 @@
   "name": "OKTV",
   "description": "OK 影视（FongMi TV 内核，开源），点播/直播客户端，需导入接口配置。",
   "package": "com.fongmi.android.tv",
-  "version": "5.8.7",
+  "version": "5.8.8",
   "versionCode": "373",
   "error": null,
   "icon": "icons/tv-917e3a.png",
@@ -726,7 +726,7 @@
    "leanback-arm64_v8a.apk"
   ],
   "latestFile": "leanback-arm64_v8a.apk",
-  "latestSize": 51412139,
+  "latestSize": 57691393,
   "latestUrl": "https://github.com/wudishiduomojimo324/netamade-appstore-mirror/releases/download/appstore-202610/tv-917e3a__leanback-arm64_v8a.apk"
  },
  {
