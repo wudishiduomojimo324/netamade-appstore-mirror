@@ -26,14 +26,14 @@
    "size": 244256017
   },
   "tv-917e3a": {
-   "version": "5.8.7",
+   "version": "5.8.8",
    "asset": "tv-917e3a__leanback-arm64_v8a.apk",
-   "size": 51412139
+   "size": 57691393
   },
   "cast-33bf30": {
-   "version": "5.8.7",
+   "version": "5.8.8",
    "asset": "cast-33bf30__leanback-arm64_v8a.apk",
-   "size": 51412139
+   "size": 57691393
   },
   "amapauto-d02f31": {
    "version": "9.5.0.600013",
