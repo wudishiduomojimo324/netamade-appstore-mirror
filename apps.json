@@ -878,16 +878,16 @@
   "code": "tvbox-q215613905",
   "name": "TVBox (Q版官方打包)",
   "package": "com.github.tvbox.osc.jun",
-  "version": "20261022-1137",
+  "version": "20261116-1003",
   "versionCode": "1",
   "error": null,
   "icon": null,
   "files": [
-   "TVBox_q215613905_20261022-1137-java64.apk"
+   "TVBox_q215613905_20261116-1003-java64.apk"
   ],
-  "latestFile": "TVBox_q215613905_20261022-1137-java64.apk",
-  "latestSize": 20771785,
-  "latestUrl": "https://github.com/wudishiduomojimo324/netamade-appstore-mirror/releases/download/appstore-202610/tvbox-q215613905__TVBox_q215613905_20261022-1137-java64.apk"
+  "latestFile": "TVBox_q215613905_20261116-1003-java64.apk",
+  "latestSize": 20775931,
+  "latestUrl": "https://github.com/wudishiduomojimo324/netamade-appstore-mirror/releases/download/appstore-202610/tvbox-q215613905__TVBox_q215613905_20261116-1003-java64.apk"
  },
  {
   "code": "algermusic-official",
