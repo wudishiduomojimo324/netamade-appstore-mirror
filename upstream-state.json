@@ -26,14 +26,14 @@
    "size": 244256017
   },
   "tv-917e3a": {
-   "version": "5.8.8",
+   "version": "5.8.9",
    "asset": "tv-917e3a__leanback-arm64_v8a.apk",
-   "size": 57691393
+   "size": 57759170
   },
   "cast-33bf30": {
-   "version": "5.8.8",
+   "version": "5.8.9",
    "asset": "cast-33bf30__leanback-arm64_v8a.apk",
-   "size": 57691393
+   "size": 57759170
   },
   "amapauto-d02f31": {
    "version": "9.5.0.600013",
@@ -41,9 +41,9 @@
    "size": 154947836
   },
   "tvbox-q215613905": {
-   "version": "20261116-1003",
-   "asset": "tvbox-q215613905__TVBox_q215613905_20261116-1003-java64.apk",
-   "size": 20775931
+   "version": "20261118-1218",
+   "asset": "tvbox-q215613905__TVBox_q215613905_20261118-1218-java64.apk",
+   "size": 20775914
   },
   "algermusic-official": {
    "version": "v5.1.0",
