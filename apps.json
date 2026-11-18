@@ -246,7 +246,7 @@
   "name": "九龙神火罩",
   "description": "投屏接收端，把手机画面投到车机（民间开发，Miracast/AirPlay 系协议）。",
   "package": "com.jiulong.cast",
-  "version": "5.8.8",
+  "version": "5.8.9",
   "versionCode": "29",
   "error": null,
   "icon": "icons/cast-33bf30.png",
@@ -254,7 +254,7 @@
    "leanback-arm64_v8a.apk"
   ],
   "latestFile": "leanback-arm64_v8a.apk",
-  "latestSize": 57691393,
+  "latestSize": 57759170,
   "latestUrl": "https://github.com/wudishiduomojimo324/netamade-appstore-mirror/releases/download/appstore-202610/cast-33bf30__leanback-arm64_v8a.apk"
  },
  {
@@ -718,7 +718,7 @@
   "name": "OKTV",
   "description": "OK 影视（FongMi TV 内核，开源），点播/直播客户端，需导入接口配置。",
   "package": "com.fongmi.android.tv",
-  "version": "5.8.8",
+  "version": "5.8.9",
   "versionCode": "373",
   "error": null,
   "icon": "icons/tv-917e3a.png",
@@ -726,7 +726,7 @@
    "leanback-arm64_v8a.apk"
   ],
   "latestFile": "leanback-arm64_v8a.apk",
-  "latestSize": 57691393,
+  "latestSize": 57759170,
   "latestUrl": "https://github.com/wudishiduomojimo324/netamade-appstore-mirror/releases/download/appstore-202610/tv-917e3a__leanback-arm64_v8a.apk"
  },
  {
@@ -878,16 +878,16 @@
   "code": "tvbox-q215613905",
   "name": "TVBox (Q版官方打包)",
   "package": "com.github.tvbox.osc.jun",
-  "version": "20261116-1003",
+  "version": "20261118-1218",
   "versionCode": "1",
   "error": null,
   "icon": null,
   "files": [
-   "TVBox_q215613905_20261116-1003-java64.apk"
+   "TVBox_q215613905_20261118-1218-java64.apk"
   ],
-  "latestFile": "TVBox_q215613905_20261116-1003-java64.apk",
-  "latestSize": 20775931,
-  "latestUrl": "https://github.com/wudishiduomojimo324/netamade-appstore-mirror/releases/download/appstore-202610/tvbox-q215613905__TVBox_q215613905_20261116-1003-java64.apk"
+  "latestFile": "TVBox_q215613905_20261118-1218-java64.apk",
+  "latestSize": 20775914,
+  "latestUrl": "https://github.com/wudishiduomojimo324/netamade-appstore-mirror/releases/download/appstore-202610/tvbox-q215613905__TVBox_q215613905_20261118-1218-java64.apk"
  },
  {
   "code": "algermusic-official",
