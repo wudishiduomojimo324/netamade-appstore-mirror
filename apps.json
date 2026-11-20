@@ -848,16 +848,16 @@
   "code": "music-e53b20",
   "name": "SaltPlayer 椒盐音乐",
   "package": null,
-  "version": "12.6.0",
+  "version": "12.7.0-beta01",
   "versionCode": null,
   "error": null,
   "icon": null,
   "files": [
-   "12.6.0-2026110201-official-arm64-v8a.apk"
+   "12.7.0-beta01-2026112001-official-arm64-v8a.apk"
   ],
-  "latestFile": "12.6.0-2026110201-official-arm64-v8a.apk",
-  "latestSize": 9943376,
-  "latestUrl": "https://github.com/wudishiduomojimo324/netamade-appstore-mirror/releases/download/appstore-202610/music-e53b20__12.6.0-2026110201-official-arm64-v8a.apk"
+  "latestFile": "12.7.0-beta01-2026112001-official-arm64-v8a.apk",
+  "latestSize": 12671583,
+  "latestUrl": "https://github.com/wudishiduomojimo324/netamade-appstore-mirror/releases/download/appstore-202610/music-e53b20__12.7.0-beta01-2026112001-official-arm64-v8a.apk"
  },
  {
   "code": "browser-4d38fc",
